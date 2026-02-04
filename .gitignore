@@ -1,0 +1,36 @@
+# Arquivos sensíveis - nunca fazer commit
+.env
+.env.*
+*.key
+*.pem
+
+# Configuração local com tokens reais
+openclaw.json
+
+# Diretórios do sistema
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dados de sessão
+sessions/
+*.session
+
+# Devices e identidade (contêm tokens)
+devices/
+identity/
